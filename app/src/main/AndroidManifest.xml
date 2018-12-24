@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ws.wolfsoft.hotelup">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Hotel_Up_Activity" />
+        <activity android:name=".HotelSelectRoomActivity" />
+        <activity android:name=".HotelUpLocationActivity" />
+        <activity android:name=".BookingSucessfullActivity"
+            android:theme="@style/AppTheme1"/>
+        <activity android:name=".HotelListActivity" />
+        <activity android:name=".HomeHotelActivity" />
+        <activity android:name=".Select_Room_Hotel_Activity" />
+        <activity android:name=".ReviewBookingActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".PhoneVerificationActivity" />
+        <activity android:name=".MyTripActivity" />
+        <activity android:name=".SelectDateActivity" />
+        <activity android:name=".FilterActivity" />
+        <activity android:name=".ReviewActivity" />
+        <activity android:name=".HotelDetailActivity"/>
+        <activity android:name=".HotelMapViewActivity"/>
+        <activity android:name=".ProfileActivity"
+            android:theme="@style/AppTheme1"/>
+
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCHeAJBmKB96xYiYubA2fAIeIgk6VlMVQA" />
+    </application>
+
+</manifest>
